@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* styling for star buttons */
+
+input[type="radio"]{
+  display: none;
+};
+
+.star{
+  cursor: pointer;
+  transition: color 200ms;
+};
